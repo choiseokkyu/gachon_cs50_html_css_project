@@ -1,0 +1,61 @@
+.sector {
+    opacity: .45;
+}
+
+#main_top {
+    height: 170px;
+    width: 100%;
+}
+
+#navigation {
+    background-color: antiquewhite;
+    height:80px;
+}
+
+#name {
+    background-color: aquamarine;
+    height:90px;
+}
+
+#main_bottom {
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+#center {
+    height: 800px;
+    width: 1200px;
+}
+
+#bottom {
+    height: 100px;
+    width: 1200px;
+    background-color: brown;
+}
+
+#left {
+    float:left;
+    width:900px;
+    height: 800px;
+
+}
+
+#right {
+    float:right;
+    height: 800px;
+    width:300px;
+    background-color: blue;
+}
+
+#menu {
+    height: 220px;
+    width: 900px;
+    background-color: chartreuse;
+}
+
+#list {
+    height: 580px;
+    width: 900px;
+    background-color: black;
+}
