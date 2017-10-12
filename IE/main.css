@@ -1,30 +1,32 @@
 .sector {
-    opacity: .45;
+
 }
 
 #main_top {
-    height: 170px;
+    height: 163.2px;
     width: 100%;
 }
 
 #navigation {
-    background-color: antiquewhite;
-    height:80px;
+    background-color: #F5F5F5;
+    height: 75px;
+
 }
 
 #name {
-    background-color: aquamarine;
-    height:90px;
+    border-bottom: 1.6px solid #EBEBEB;
+    border-top: 1.6px solid #EBEBEB;
+    height:85px;
 }
 
 #main_bottom {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
 #center {
-    height: 800px;
+    height: 760px;
     width: 1200px;
 }
 
@@ -37,19 +39,19 @@
 #left {
     float:left;
     width:900px;
-    height: 800px;
+    height: 760px;
 
 }
 
 #right {
     float:right;
-    height: 800px;
+    height: 760px;
     width:300px;
     background-color: blue;
 }
 
 #menu {
-    height: 220px;
+    height: 180px;
     width: 900px;
     background-color: chartreuse;
 }
@@ -58,4 +60,25 @@
     height: 580px;
     width: 900px;
     background-color: black;
+}
+.git {
+    height: 35px;
+    margin-left:20%;
+    width: 130px;
+    margin-top:20px;
+    display: inline;
+}
+.pad{
+    padding: 0px 10px;
+
+}
+#search{
+    padding-top: 5px;
+    margin-bottom: 100px;
+    background-color: white;
+    height:30px;
+    display: inline-block;
+}
+.repo {
+    margin-bottom:50px;
 }
