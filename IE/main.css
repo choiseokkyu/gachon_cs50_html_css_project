@@ -1,6 +1,4 @@
-.sector {
 
-}
 
 #main_top {
     height: 163.2px;
@@ -53,12 +51,15 @@
 #menu {
     height: 180px;
     width: 900px;
-    background-color: chartreuse;
+    background-color: white;
 }
 
 #list {
     height: 580px;
     width: 900px;
+
+    background-color: blueviolet;
+
     background-color: black;
 }
 .git {
@@ -200,4 +201,5 @@
 .numb{
     padding-top:15px;
     font-weight:bold;
+
 }
