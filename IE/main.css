@@ -33,7 +33,7 @@
 #bottom {
     height: 100px;
     width: 1200px;
-    background-color: brown;
+    border-top:2px solid lightgray;
 }
 
 #left {
@@ -47,19 +47,19 @@
     float:right;
     height: 760px;
     width:300px;
-    background-color: blue;
+    background-color: ;
 }
 
 #menu {
     height: 180px;
     width: 900px;
-    background-color: chartreuse;
+    background-color: ;
 }
 
 #list {
     height: 580px;
     width: 900px;
-    background-color: black;
+    background-color: ;
 }
 .git {
     height: 35px;
@@ -185,9 +185,7 @@
     text-align:center;
     height:50px;
     font-size:23px;
-}
-.td1{
-
+    margin-right:10px;
 }
 .but{
     position:relative;
@@ -195,9 +193,13 @@
     font-size: 20px;
 }
 .ltable{
-    margin-left:320px;
+    margin-left:280px;
 }
 .numb{
     padding-top:15px;
     font-weight:bold;
+}
+.foot{
+    display: inline-block;
+    margin-top:50px;
 }
