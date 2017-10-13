@@ -63,22 +63,141 @@
 }
 .git {
     height: 35px;
-    margin-left:20%;
+    bottom:10px;
     width: 130px;
-    margin-top:20px;
-    display: inline;
+    position:relative;
+
 }
 .pad{
-    padding: 0px 10px;
+    display:inline-block;
+    margin-top:20px;
+    height:35px;
+    position:relative;
+    top:10px;
+
+}
+.ml{
+
+    margin-left:20%
 
 }
 #search{
-    padding-top: 5px;
-    margin-bottom: 100px;
-    background-color: white;
-    height:30px;
-    display: inline-block;
+
+    height:35px;
+    margin-bottom:40px;
+    bottom:20px;
+    position:relative;
+    border-radius:5px;
+    border: 0px solid white;
+    width: 300px;
 }
-.repo {
-    margin-bottom:50px;
+.class {
+    text-align: center;
+}
+#box{
+    margin-left:15px;
+    height:20px;
+    width: 130px;
+    bottom:10px;
+    position:relative;
+    border-radius:5px;
+    border: 3px solid white;
+    font-size:15px;
+    color: gray;
+    display: inline-block;
+
+    padding-top:7px;
+    padding-bottom:7px;
+    text-align: center;
+}
+.inline{
+    display:inline;
+
+}
+.line{
+    bottom:5px;
+    position:relative;
+    display: inline-block;
+    font-weight: 900;
+    font-size:18px;
+
+}
+.button{
+    font-weight:bold;
+    font-size:20px;
+    border-radius:5px;
+    border: none;
+    bottom:10px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    position:relative;
+    display: inline-block;
+
+}
+.button1{
+    background-color: #4CAF50;
+    color: white;
+
+}
+.button2{
+    background-color: #F5F5F5;
+    border:2px solid lightgray;
+}
+.repo{
+    margin-left:17.5%;
+    margin-top:20px;
+    height:45px;
+    width:130px;
+}
+.name{
+    display:inline-block;
+    font-size:35px;
+    position:relative;
+    bottom:10px;
+
+
+}
+.img{
+    display:inline-block;
+    margin-left:16%;
+}
+.txt1{
+    color:blue;
+
+}
+.txt2{
+    font-weight:bold;
+    color:gray;
+}
+.txt3{
+    font-weight:bold;
+    color:blue;
+}
+.table{
+    border: 1px solid lightgray;
+    display:inline;
+    position:relative;
+    bottom:10px;
+    text-align:center;
+    height:50px;
+    font-size:23px;
+}
+.td1{
+
+}
+.but{
+    position:relative;
+    top:11px;
+    font-size: 20px;
+}
+.ltable{
+    margin-left:320px;
+}
+.numb{
+    padding-top:15px;
+    font-weight:bold;
 }
