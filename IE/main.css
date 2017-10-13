@@ -1,6 +1,4 @@
-.sector {
 
-}
 
 #main_top {
     height: 163.2px;
@@ -53,13 +51,24 @@
 #menu {
     height: 180px;
     width: 900px;
+<<<<<<< HEAD
     background-color: ;
+=======
+    background-color: white;
+>>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
 }
 
 #list {
     height: 580px;
     width: 900px;
+<<<<<<< HEAD
     background-color: ;
+=======
+
+    background-color: blueviolet;
+
+    background-color: black;
+>>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
 }
 .git {
     height: 35px;
@@ -198,8 +207,12 @@
 .numb{
     padding-top:15px;
     font-weight:bold;
+<<<<<<< HEAD
 }
 .foot{
     display: inline-block;
     margin-top:50px;
+=======
+
+>>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
 }
