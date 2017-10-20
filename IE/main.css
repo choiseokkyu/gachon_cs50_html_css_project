@@ -48,7 +48,7 @@
     float:right;
     height: 760px;
     width:300px;
-    background-color: blue;
+
 }
 
 #menu {
@@ -211,3 +211,164 @@
 }
 
 #blue{  color: #2188ff; font-weight: 700; margin-right: 5px; margin-left: 5px;}
+
+
+#cssmenu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 1;
+
+} /*---> 메인의 라이트로 교체*/
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+#cssmenu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle;
+    position: relative;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+#cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    /*left: 0px;*/
+    z-index: 598;
+    width: 100%;
+}
+#cssmenu ul ul li {
+    float: none;
+}
+#cssmenu ul ul ul {
+    top: -2px;
+    right: 0;
+}
+#cssmenu ul li:hover > ul {
+    visibility: visible;
+}
+#cssmenu ul ul {
+    top: 1px;
+    left: 99%;
+}
+#cssmenu ul li {
+    float: none;
+}
+#cssmenu ul ul {
+    margin-top: 1px;
+}
+#cssmenu ul ul li {
+    font-weight: normal;
+}
+#cssmenu {
+    width: 270px;
+    background: white;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    zoom: 1;
+    font-size: 12px;
+}
+/*<!-- 박스전체 색>*/
+#cssmenu:before {
+    content: '';
+    display: block;
+}
+#cssmenu:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#cssmenu a {
+    display: block;
+    padding: 15px 20px;
+    /*color: #ffffff;*/
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#cssmenu > ul {
+    width: 250px;
+}
+#cssmenu ul ul {
+    width: 250px;
+}
+#cssmenu .current{
+    border-right: 4px solid #D4711E;
+    color: black !important;
+}
+#cssmenu .nonclick{
+    /*color: #80A5D5 !important;*/
+}
+/*전체 오른쪽 구석색 지정시: cssmenu > ul > li > a { ~~*/
+/*#cssmenu > ul > li > a {
+  border-right: 4px solid #D4711E;
+  color: black;*/
+/*<!--보더 라이트: 오른쪽 끝 색, 컬러:전체 글자색(오른쪽제외)>*/
+#cssmenu > ul > li > a:hover {
+    color: #ffffff;
+}
+
+/* 검색 박스 부분*/
+#clonebox{
+    border : 1px solid LightGray;
+    border-radius: 4px;
+    padding :7px 5px !important;
+    width: 80%;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+.white {
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.current a{
+    color: black;
+}
+.nonclick a{
+    color: #4eb1ff;
+}
+#cloneurl{
+    width: 250px;
+}
+#cloneurl a:link{
+    color: #4eb1ff !important;
+    text-decoration:none !important;
+    width: 3px !important;
+}
+h5{
+    color: #4eb1ff !important;
+}
+#cloneurl h4,
+#cloneurl h5{
+    display: inline !important;
+}
