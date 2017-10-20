@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>IE's Github</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-
-
-
     <link rel="stylesheet" href="node_modules/octicons/build/font/octicons.css">
 
 </head>
@@ -15,10 +12,6 @@
 
 
         <div id="navigation" class="sector">
-
-
-        </div>
-        <div id="name" class="sector">
 
 
             <div class="pad ml"><img class ="git" src="GitHub-Logo.png"></div>
@@ -31,6 +24,7 @@
             <button class="button button1">Sign up</button>
             <button class="button button2">Sign in</button>
         </div>
+
         <div id="name" class="sector">
             <div class="img"><img class="repo" src="icon/repo.svg"></div>
             <div class="name txt1">KnowRe</div>
@@ -38,24 +32,25 @@
             <div class="name txt3">WebDevCurriculum</div>
             <table class="table ltable">
             <tr >
-                <td class="td1 lef"><button class="but"><img src="icon/eye.svg">&nbsp;Watch</button></td>
+                <td class="td1 lef"><button class="but"><img src="icon/eye.svg">Watch</button></td>
                 <td class="td1 numb">20</td>
             </tr>
             </table>
             <table class="table">
             <tr>
-                <td class="td2 lef"><button class="but"><img src="icon/star.svg">&nbsp;Star</button></td>
+                <td class="td2 lef"><button class="but"><img src="icon/star.svg">Star</button></td>
                 <td class="td2 numb">47</td>
             </tr>
             </table>
             <table class="table">
             <tr >
-                <td class="td3 lef"><button class="but"><img src="icon/repo-forked.svg">&nbsp;Fork</button></td>
+                <td class="td3 lef"><button class="but"><img src="icon/repo-forked.svg">Fork</button></td>
                 <td class="td3 numb">6</td>
             </tr>
-
+            </table>
         </div>
     </div>
+
     <div id="main_bottom" class="sector">
 
         <div id="center" class="sector">
@@ -64,31 +59,27 @@
 
 
                 <div id="menu" class="sector">
-                    <br>
-                    <img src="../svg/repo.svg" alt="" style="float:left; height: 40px;">
-                    <font color=black size='5'>   KnowRe web development curriculum for noobs </font>
-                    <div style="border:1px solid; padding:10px; float: right; display: flex; height: 40px;">
-                        <div style="background-color: #F8F8F8; height: 100%;" >
-                            <img src="../svg/eye.svg" style=" height: 18px;"> Watch
-                        </div>
-                        <div style="background-color: white; height: 100%;">
-                             20
-                        </div>
-                    </div>
+                    <div style="margin-top: 5px; margin-bottom: 5px; font: gray;">KnowRe web development curriculum for noobs</div>
+
 
                     <!--<table style="width:100%" align="center" border="1" border solid gray margin="1" >-->
-                    <table style="margin-top: 5px; align-content: center; border: 1px solid gray; width: 98%">
-                        <tr>
-                            <th> <img src="../svg/history.svg" style=" height: 18px;">26 commits</th>
-                            <th> <img src="../svg/tag.svg" style=" height: 18px;">2 branches</th>
-                            <th> <img src="../svg/git-merge.svg" style=" height: 18px;">0 releases</th>
-                            <th> <img src="../svg/organization.svg" style=" height: 18px;">1 contributor</th>
+                    <table style="width: 100%; padding-bottom: 3px; padding-top: 3px; border-radius:5px; background-color: #F5F5F5; border:2px solid lightgray; " >
+                        <tr style="border: none;">
+                            <th style="border: none;"> <img src="../svg/history.svg" style=" height: 18px; margin-right: 3px;"">26 commits</th>
+                            <th style="border: none;"> <img src="../svg/tag.svg" style="margin-right: 3px;">2 branches</th>
+                            <th style="border: none;"> <img src="../svg/git-merge.svg" style=" margin-right: 3px;">0 releases</th>
+                            <th style="border: none;"> <img src="../svg/organization.svg" style=" margin-right: 3px;">1 contributor</th>
                         </tr>
+
                     </table>
+                    <div style="height: 5px; background-color: yellow;" > </div>
                     <br>
-                    <img src="../image/branch.jpg" style="float:left;">
-                    <font color=blue size='3'>   WebDeCurriculum / + </font>
-                    <img src="../image/list_button.jpg" style="float:right;">
+                    <button style="float: left; margin-left: 1px;" class="button button2"><img src="../svg/git-compare.svg" style=" height: 17px;"></button>
+                    <button style="float: left; margin-left: 1px; margin-right: 5px"  class="button button2">Branch: 2016▼</button>
+                    <span class="name txt3">WebDevCurriculum</span>
+                    <span class="name txt2">/ +</span>
+                    <button style="float: right;" class="button button2"><img src="../svg/list-unordered.svg" style=" height: 17px;"></button>
+
 
 
 
@@ -101,40 +92,96 @@
                 <div id="list" class="sector">
 
 
-                    <table style="width:100%" align="center" border="1" >
-                        <tr>
-                            <th>This branch is 5 commits abead of master./<img src="../image/pullrequest_button.jpg" /></th>
+                    <table style="width: 100%; padding-bottom: 3px; padding-top: 3px; border-radius:5px; background-color: #F5F5F5; border:2px solid lightgray; ">
+                        <tr style="height: 30px;">
+                            <th>
+                                <table style="width: 100%" align= center;">
+                                    <tr>
+                                        <th class="txt4" style="text-align: left; width: 350px;"> <span>This branch is 5 commits abead of master.</span></th>
+                                        <th class="txt4" style="text-align: right;"><img style="margin-right: 3px;" src="../svg/git-pull-request.svg" />Pull request <img style="margin-right: 3px;" src="../svg/file-text.svg" />Compare
+
+                                        </th>
+                                    </tr>
+                                </table>
+                            </th>
                         </tr>
-                        <tr>
-                            <td>...</td>
+                        <tr style="background-color: deepskyblue; opacity: 50% border-top: 2px solid lightgray; border-bottom: 2px solid lightgray;" >
+                            <td class="txt4" style="padding-bottom: 8px; padding-top: 8px;" >...</td>
                         </tr>
-                        <tr>
-                            <td>Kivol authored 19 hours ago</td><img src="../image/notepad_button.jpg" />
+                        <tr style="background-color: #F5F5F5; border-top: 2px solid lightgray; border-bottom: 2px solid lightgray; ">
+                            <td>
+
+                            <table style="width: 100%" align= center;">
+                                <tr style="height: 30px;">
+                                    <th style="text-align: left; width: 350px;"> <img src="../svg/graph.svg" style=" margin-right: 5px;"><span style="font-size: 700;">Kivol</span> <span class="txt4"> authored 19 hours ago</span></th>
+                                    <th class="txt4" style="text-align: right;"> <span>latest commit 5ead7a7a36</span> <img src="../svg/clippy.svg" /></th>
+                                </tr>
+                            </table>
+
+                            </td>
+
+
+
                         </tr>
-                        <tr>
-                            <td><img src="../image/folder_button.jpg" />Part 0. git/ QUEST 0, Hello, git</td>
+                        <tr style="background-color: white; border-top: 2px solid lightgray; border-bottom: 2px solid lightgray; height: 30px;">
+                            <td>
+                                <table style="width: 100%" align= center;">
+                                    <tr>
+                                        <th class="txt4" style="text-align: left; width: 350px;"> <span><img src="../svg/file-directory.svg" style=" margin-right: 5px;">Part 0, git/</span><span style="font-weight: 700;color: #4a9eff;" > Quest 0. Hello, git</span></th>
+                                        <th class="txt4" style="text-align: left;"> <span>Quest 0 - Added checklist</span></th>
+                                        <th class="txt4" style="text-align: right"> <span>19 hours ago</span></th>
+                                    </tr>
+                                </table>
+
+                            </td>
                         </tr>
-                        <tr>
-                            <td><img src="../image/folder_button.jpg" />old</td>
+                        <tr style="background-color: white; border-top: 2px solid lightgray; border-bottom: 2px solid lightgray; height: 30px; ">
+                            <td>
+                                <table style="width: 100%" align= center;">
+                                    <tr>
+                                        <th class="txt4" style="text-align: left; width: 350px;"> <span style=" font-weight: 700; color: #4a9eff;"><img src="../svg/file-directory.svg" style="margin-right: 5px;">old</span></th>
+                                        <th class="txt4" style="text-align: left;"> <span>New curriculum 2016 - started</span></th>
+                                        <th class="txt4" style="text-align: right"> <span>5 days ago</span></th>
+                                    </tr>
+                                </table>
+                            </td>
                         </tr>
-                        <tr>
-                            <td><img src="../image/file_picture.jpg" />LICENSE</td>
+                        <tr style="height: 30px;" >
+                            <td>
+                                <table style="width: 100%" align= center;">
+                                    <tr>
+                                        <th class="txt4" style="text-align: left; width: 350px;"> <span style=" font-weight: 700; color: #4a9eff;"><img src="../svg/file-text.svg" style=" margin-right: 5px;">LICENSE</span></th>
+                                        <th class="txt4" style="text-align: left;"> <span>New curriculum 2016 - started</curri></span></th>
+                                        <th class="txt4" style="text-align: right"> <span>5 days ago</span></th>
+                                    </tr>
+                                </table>
+                            </td>
                         </tr>
-                        <tr>
-                            <td><img src="../image/file_picture.jpg" />README.md</td>
+                        <tr style="background-color: white; border-top: 2px solid lightgray; height: 30px;">
+                            <td>
+                                <table style="width: 100%" align= center;">
+                                <tr>
+                                    <th class="txt4" style="text-align: left; width: 350px;"> <span style="font-weight: 700; color: #4a9eff;"><img src="../svg/file-text.svg" style="margin-right: 5px; ">README.md</span></th>
+                                    <th class="txt4" style="text-align: left;"> <span>...</span></th>
+                                    <th class="txt4" style="text-align: right"> <span>19 hours ago</span></th>
+                                </tr>
+                                </table>
+
+                            </td>
                         </tr>
                     </table>
                     <br>
 
-                    <table style="width:100%" align="center" border="1" >
+                    <table style="width: 100%; padding-bottom: 3px; padding-top: 3px; border-radius:5px; background-color: #F5F5F5; border:2px solid lightgray; " >
 
                         <tr>
-                            <th><img src="../image/read_button.jpg" />README.md</th>
+                            <th style="padding-top:5px; padding-bottom: 5px;text-align: left; border-bottom: 2px solid lightgray;"><img src="../svg/book.svg" style="margin-right: 5px;"><span style="font-size: bold;">README.md</span></th>
                         </tr>
                         <tr>
-                            <td><font color=black size='2'> KnowRe web development curriculum for noobs</font> </td>
+                            <td><div style="font-size: 45px; font-style: inherit; padding: 40px; background-color: white;"> KnowRe web development curriculum for noobs</div> </td>
                         </tr>
                     </table>
+
 
 
                 </div>
@@ -145,20 +192,30 @@
             </div>
         </div>
         <div id="bottom" class="sector">
-            <div class="foot">ⓒ 2015 GitHub. Inc.</div>
-            <div class="foot">Terms</div>
-            <div class="foot">Privacy</div>
-            <div class="foot">Security</div>
-            <div class="foot">Contact</div>
-            <div class="foot">Help</div>
-            <div class="foot"><img src="icon/mark-github.svg"></div>
-            <div class="foot">Status</div>
-            <div class="foot">API</div>
-            <div class="foot">Training</div>
-            <div class="foot">Shop</div>
-            <div class="foot">Blog</div>
-            <div class="foot"></div>
-            <div class="foot"></div>
+            <table class="bss">
+                <tr>
+
+                    <td class="txt4" style="width: 150px;"> ⓒ2015 github, Inc. </td>
+                    </td>
+                    <td id="blue"> Terms</td>
+                    <td id="blue">Privacy</td>
+                    <td id="blue">Security</td>
+                    <td id="blue">Contact</td>
+                    <td id="blue">Help</td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img style="height: 30px; opacity: 90;" src="../svg/mark-github.svg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td/>
+                    <td id="blue">status</td>
+                    <td id="blue">API</td>
+                    <td id="blue">Training</td>
+                    <td id="blue">Shop</td>
+                    <td id="blue">Blog</td>
+                    <td id="blue">About</td>
+                    <td id="blue">pricing</td>
+                </tr>
 
 
         </div>

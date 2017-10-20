@@ -1,4 +1,7 @@
+.sector {
+    opacity: 1;
 
+}
 
 #main_top {
     height: 163.2px;
@@ -31,7 +34,7 @@
 #bottom {
     height: 100px;
     width: 1200px;
-    border-top:2px solid lightgray;
+    background-color: white;
 }
 
 #left {
@@ -45,30 +48,20 @@
     float:right;
     height: 760px;
     width:300px;
-    background-color: ;
+    background-color: blue;
 }
 
 #menu {
     height: 180px;
     width: 900px;
-<<<<<<< HEAD
-    background-color: ;
-=======
     background-color: white;
->>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
 }
 
 #list {
     height: 580px;
     width: 900px;
-<<<<<<< HEAD
-    background-color: ;
-=======
-
-    background-color: blueviolet;
-
-    background-color: black;
->>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
+    background-color: white;
+    border-bottom: 1.6px solid #EBEBEB;
 }
 .git {
     height: 35px;
@@ -186,6 +179,12 @@
     font-weight:bold;
     color:blue;
 }
+
+.txt4{
+    font-weight: normal;
+    color:gray;
+}
+
 .table{
     border: 1px solid lightgray;
     display:inline;
@@ -194,7 +193,9 @@
     text-align:center;
     height:50px;
     font-size:23px;
-    margin-right:10px;
+}
+.td1{
+
 }
 .but{
     position:relative;
@@ -202,17 +203,11 @@
     font-size: 20px;
 }
 .ltable{
-    margin-left:280px;
+    margin-left:320px;
 }
 .numb{
     padding-top:15px;
     font-weight:bold;
-<<<<<<< HEAD
 }
-.foot{
-    display: inline-block;
-    margin-top:50px;
-=======
 
->>>>>>> 5a49663d2cc570614814407877f74bd6a2491960
-}
+#blue{  color: #2188ff; font-weight: 700; margin-right: 5px; margin-left: 5px;}
